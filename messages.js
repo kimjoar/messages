@@ -9,7 +9,7 @@
         define(['underscore'], factory);
     } else {
         // Browser globals (root is window)
-        root.subViewHandler = factory(root._);
+        root.Messages = factory(root._);
     }
 }(this, function (_) {
 
